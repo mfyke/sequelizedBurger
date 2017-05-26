@@ -4,8 +4,14 @@ module.exports = function(sequelize, DataTypes) {
   		type: DataTypes.INTEGER,
   		primaryKey: true
   	},
-    burger_name: DataTypes.STRING,
-    devoured: DataTypes.BOOLEAN,
+    burger_name: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    devoured: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false
+    },
     date: DataTypes.DATE
   });
   return burger;
