@@ -1,15 +1,15 @@
-# burger
+# sequelizeBurger HW
 
 
 ## Live Link (Heroku)
-- https://sleepy-cliffs-91145.herokuapp.com/
+- https://stark-beyond-53683.herokuapp.com/
 
 ## Requirements
 ####
 
 - Create a burger database in MySQL
 
-- Following the MVC structure, create a system to interact with the database utilizing a customized ORM.
+- Following the MVC structure, create a system to interact with the database utilizing sequelize.
 
 - Update the view with Handlebars.
 
@@ -33,6 +33,8 @@
 - MySQL
 
 - Heroku (for deployment)
+
+- Sequelize
 
 ## Code Explanation
 
